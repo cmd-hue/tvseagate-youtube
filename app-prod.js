@@ -21005,7 +21005,7 @@
         }
         ;
         d.Ct = function(a, b, c) {
-           if(c === 1) {
+                if(c === "1") {
                     return "https://web.archive.org/web/20120812130834im_/http://i1.ytimg.com/" + b + "/" + a + "/1.jpg"
                 }
             return "http://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg"
