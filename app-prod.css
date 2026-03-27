@@ -106,22 +106,23 @@ ul.list.vertical li {
     visibility: hidden;
     width: 0
 }
-
 .logo-container.icon-youtube-logo {
+    display: none;
+}
+
+/*.logo-container.icon-youtube-logo {
     color: #999;
     font-family: 'youtube-icons';
     font-size: 3em;
     position: absolute;
     right: 6%;
     top: 6.3%
-}
+} */
 
 .call-to-cast-state .logo-container,.search-mode .logo-container,.watch-state.no-mode .logo-container,.no-app-background.logo-container {
     opacity: 0
 }
 
-#loader {
-}
 
 #leanback {
     height: 100%

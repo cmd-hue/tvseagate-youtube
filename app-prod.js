@@ -21006,8 +21006,12 @@
         ;
         d.Ct = function(a, b, c) {
             if (Math.floor(Math.random()*10) === 7) {
-                console.log("puckett"); // icarly reference
-                return "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"
+                console.log("puckett " + " " + a + " " + b + " " + c); // icarly reference
+                if(c === 1) {
+                    return "https://file.garden/aUYIWVAKvQxCBY-_/database/images/profilepuckett.png"
+                } else {
+                    return "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"
+                }
             }
             return "http://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg"
         }
@@ -27984,7 +27988,12 @@
         ;
         d.TG = function() {
             var a = Math.floor(56 * Math.random() + 1);
-            this.Oa = "https://cmd-hue.github.io/tvseagate-youtube/background/bg" + a + ".jpg"
+            if (Math.floor(Math.random()*10) === 7) {
+                console.log("puckett"); // icarly reference
+                this.Oa = "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"
+            } else {
+            this.Oa = "https://cmd-hue.github.io/tvseagate-youtube/background/bg" + a + ".jpg"}
+            console.log("https://cmd-hue.github.io/tvseagate-youtube/background/bg" + a + ".jpg");
         }
         ;
         d.Qe = function(a) {
