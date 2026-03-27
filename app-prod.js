@@ -21005,14 +21005,9 @@
         }
         ;
         d.Ct = function(a, b, c) {
-            if (Math.floor(Math.random()*10) === 7) {
-                console.log("puckett " + " " + a + " " + b + " " + c); // icarly reference
-                if(c === 1) {
-                    return "https://file.garden/aUYIWVAKvQxCBY-_/database/images/profilepuckett.png"
-                } else {
-                    return "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"
+           if(c === 1) {
+                    return "https://web.archive.org/web/20120812130834im_/http://i1.ytimg.com/" + b + "/" + a + "/1.jpg"
                 }
-            }
             return "http://i1.ytimg.com/" + b + "/" + a + "/" + c + ".jpg"
         }
         ;
