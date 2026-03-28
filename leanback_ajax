@@ -1,9 +1,9 @@
 {
     "sets": [
         {
-            "title": "YouTube Trends",
+            "title": "Trends",
             "video_count": 4777,
-            "gdata_list_id": "FLtrends",
+            "gdata_list_id": "PL510F718C1BD11C26",
             "icon": "trends",
             "gdata_url": "https:\/\/web.archive.org\/web\/20131231162350\/http:\/\/gdata.youtube.com\/feeds\/api\/users\/trends\/favorites",
             "list_id": "FLeNZlh03MyUkjRlLFpVQxsg",
@@ -83,7 +83,7 @@
             "title": "Science \u0026 Technology",
             "tab": "featured",
             "icon": "tech",
-            "gdata_list_id": "STmost_popular_Tech"
+            "gdata_list_id": "PLDowS0m7mqDkxui735tPjJQU-TADvjzHG"
         },
         {
             "gdata_url": "https:\/\/web.archive.org\/web\/20131231162350\/http:\/\/gdata.youtube.com\/feeds\/api\/standardfeeds\/US\/most_popular_Howto?time=today",
@@ -121,7 +121,7 @@
         {
             "title": "Cors Fuck Up",
             "video_count": 30,
-            "gdata_list_id": "STwhat_to_watch",
+            "gdata_list_id": "FLbLuuKc4pWf-1T6y60DJEcg",
             "icon": "rup",
             "gdata_url": "https:\/\/web.archive.org\/web\/20131231162350\/http:\/\/gdata.youtube.com\/feeds\/api\/standardfeeds\/US\/most_popular?time=today",
             "list_id": "LBpop,0,t,en_US",
