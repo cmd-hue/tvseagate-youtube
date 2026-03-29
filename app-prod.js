@@ -20102,7 +20102,7 @@
                     pairing_code: a,
                     access_type: b ? "permanent" : "temporary"
                 },
-                method: "POST",
+                method: "GET",
                 format: "RAW",
                 Wc: y(c, this, !0),
                 onError: y(c, this, !1)
@@ -20117,7 +20117,7 @@
                     screen_id: this.b.Ab,
                     pairing_code: a
                 },
-                method: "POST"
+                method: "GET"
             })
         }
         ;
@@ -27992,7 +27992,7 @@
         }
         ;
         d.TG = function() {
-            var a = Math.floor(63 * Math.random() + 1);
+            var a = Math.floor(65 * Math.random() + 1);
             if (Math.floor(Math.random()*10) === 7) {
                 console.log("puckett"); // icarly reference
                 this.Oa = "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"
