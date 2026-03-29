@@ -9,6 +9,16 @@
 }
 
 @font-face {
+    font-family: "2014tv";
+    src: url(https://file.garden/aUYIWVAKvQxCBY-_/database/fonts/yticons20140611.ttf);
+}
+
+@font-face {
+    font-family: "PeaPie-Regular";
+    src: url(https://file.garden/aUYIWVAKvQxCBY-_/database/fonts/PeaPie-Regular.otf);
+}
+
+@font-face {
     font-family: 'youtube-icons';
     font-style: normal;
     font-weight: normal;
@@ -4173,6 +4183,15 @@ playback timings (ms):
     content: "\f167"
 }
 
+.icon-youtube-alt:before {
+    font-family: fontawesomev4 !important; 
+    content: "\f167"
+}
+
 .action-tile .directv {
     background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/database/vector/whitedirec.svg)
+}
+
+.action-tile.alternate {
+    font-family: "PeaPie-Regular" !important;
 }

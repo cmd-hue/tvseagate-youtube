@@ -25385,6 +25385,7 @@
                 a.ha(N.D + "/rebound/suggestions.html", '<div>  <ul class="$list" data-model="{{model.suggestions}}" data-catch-mouse-move="true">    <li>{{model}}</li>  </ul></div>');
                 a.ha(N.D + "/rebound/super_scroller.html", '<div>  <div class="$list" data-model="{{collection}}">    <div class="$feed-icon"></div>  </div></div>');
                 a.ha(N.D + "/rebound/tiles/action.html", '<div class="item action-tile">  <div class="content {{model.tileClass}}">    <div class="title">{{model.title}}</div>    <div class="large-action-icon {{model.iconClass}}"></div>    <div class="description">{{model.description}}</div>  </div></div>');
+                a.ha(N.D + "/rebound/tiles/actionalt.html", '<div class="item action-tile alternate">  <div class="content {{model.tileClass}}">    <div class="title">{{model.title}}</div>    <div class="large-action-icon {{model.iconClass}}"></div>    <div class="description">{{model.description}}</div>  </div></div>');
                 a.ha(N.D + "/rebound/tiles/kenko.html", '<div class="item action-tile">  <div class="content">    <div class="title">\u5065\u5eb7\u306e\u305f\u3081\u306e<br>\u3054\u6ce8\u610f</div>  </div></div>');
                 a.ha(N.D + "/rebound/tiles/playlist_tile.html", '<div class="item video-tile playlist-tile">  <div class="top">    <div class="video-thumb"></div>    <div class="voice-command">{{getSpeechPhrase()}}</div>    <div class="count-overlay"><span class="video-count">{{model.videoCount}}</span> <span>{{model.videoString}}</span></div>  </div>  <div class="bottom">    <div class="title">{{model.title}}</div>    <div class="details">      <span class="name">{{model.channel.displayName}}</span>      <span class="updated">{{model.uploadedDateLabel}}</span>    </div>    <div class="set">      <span class="title">{{model.firstVideoTitle}}</span>      <span class="count">[[1 of {{model.videoCount}}|Label describing the position of the first video in the playlist.]]</span>    </div>  </div></div>');
                 a.ha(N.D + "/rebound/tiles/post_play_tile.html", '<div>  <div class="post-play-title">    <span class="default-title">[[You may also like...|Label informing the user that they may enjoy these videos.]]</span>    <span class="next-up-title">[[Next up in <span class="row-title">{{getRowTitle()}}</span>|Informs the user of the next video that will play in this playlist. This is followed by the title of the playlist.]]</span>  </div>  <div class="$videoTile" data-model="{{model}}"></div>  <div class="post-play-countdown">{{countdown}}</div></div>');
@@ -26281,7 +26282,7 @@
             b = new U(this.g,"shiyojoTile","request-view-shiyojo"),
             this.b.push(a),
             this.b.push(b));
-            a = new U(this.g,"actionTile","request-view-tos","[[Terms of Service and Privacy|Title of menu item which shows links to terms of service and privacy documents on youtube.com]]","directv","CALL ME WARIO THE WAY I GO WA");
+            a = new U(this.g,"actionTileAlt","request-view-tos","[[Terms of Service and Privacy|Title of menu item which shows links to terms of service and privacy documents on youtube.com]]","directv","CALL ME WARIO THE WAY I GO WA");
             this.b.push(a)
         }
         ;
@@ -31773,6 +31774,9 @@
                 name: "playlistTile",
                 Al: ql,
                 templateUrl: "/rebound/tiles/playlist_tile.html"
+            },{
+                name: "actionTileAlt",
+                templateUrl: "/rebound/tiles/actionalt.html"
             }];
             g = 0;
             for (k = a.length; g < k; ++g)
