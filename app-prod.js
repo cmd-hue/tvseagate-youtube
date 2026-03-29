@@ -26281,7 +26281,7 @@
             b = new U(this.g,"shiyojoTile","request-view-shiyojo"),
             this.b.push(a),
             this.b.push(b));
-            a = new U(this.g,"actionTile","request-view-tos","[[Terms of Service and Privacy|Title of menu item which shows links to terms of service and privacy documents on youtube.com]]");
+            a = new U(this.g,"actionTile","request-view-tos","[[Terms of Service and Privacy|Title of menu item which shows links to terms of service and privacy documents on youtube.com]]","directv");
             this.b.push(a)
         }
         ;
@@ -27984,7 +27984,7 @@
         }
         ;
         d.TG = function() {
-            var a = Math.floor(58 * Math.random() + 1);
+            var a = Math.floor(59 * Math.random() + 1);
             if (Math.floor(Math.random()*10) === 7) {
                 console.log("puckett"); // icarly reference
                 this.Oa = "https://file.garden/aUYIWVAKvQxCBY-_/database/images/puckett.png"

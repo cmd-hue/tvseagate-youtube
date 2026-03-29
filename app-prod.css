@@ -4172,3 +4172,7 @@ playback timings (ms):
     font-family: fontawesomev4 !important; 
     content: "\f167"
 }
+
+.action-tile .directv {
+    background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/database/vector/whitedirec.svg)
+}
