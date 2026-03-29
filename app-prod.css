@@ -1174,8 +1174,12 @@ body.eureka {
     width: 7em
 }
 
-.action-tile .sign-in-user-icon {
+.action-tile .sign-in-user-icon.old {
     background-image: url(./icon-default-avatar.png)
+}
+
+.action-tile .sign-in-user-icon {
+    background-image: url(https://file.garden/aUYIWVAKvQxCBY-_/database/images/resized.7ba1b568.png)
 }
 
 .action-tile .search-icon {
