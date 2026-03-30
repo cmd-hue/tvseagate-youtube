@@ -26262,10 +26262,6 @@
                 }, this));
                 this.b.push(a)
             }
-        if (window.debugmode === true) {
-            a = new U(this.g,"actionTile","request-debug-info","SHOW DEBUG INFO","warning"),
-            this.b.push(a)
-        }
             a = new U(this.g,"actionTile","request-view-help","[[Help|A button title that provides an access to the help page.]]","help-icon");
             this.b.push(a);
             a = new U(this.g,"actionTile","request-view-feedback","[[Feedback|A button title that provides an access to the feedback page.]]","feedback-icon");
